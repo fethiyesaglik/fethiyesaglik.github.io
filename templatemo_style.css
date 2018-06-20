@@ -127,11 +127,11 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #mid_left { float:left; width: 460px; padding-top: 30px; }
 
 #mid_text { 
-	color: #90e2ff; 
+	color:#774422;
 	font-family: Tahoma, Geneva, sans-serif; 
 	font-style: italic; 
 	margin-bottom: 30px; 
-	font-size: 16px; 
+	font-size: 20px; 
 	line-height: 26px; 
 }
 
@@ -256,7 +256,8 @@ a.nivo-prevNav {
 .col_l { margin: 0 }
 .col_5 { float: left; width: 950px; margin-right: 20px }
 
-.fp_rp img { width: 280px; height: 140px; padding: 10px; margin-bottom: 20px; background: url(images/templatemo_image_frame_01.png) no-repeat }
+.fp_rp img { width: 360px; height: auto; padding: 10px; margin-bottom: 20px; float:left;}
+.fp_rp p { width: 500px; float:right;} 
 .fp_rp h2 { font-size: 20px; border-bottom: 1px dashed #726144; margin-bottom: 10px; padding-bottom: 5px }
 .fp_rp h2 a { text-decoration: none }
 
