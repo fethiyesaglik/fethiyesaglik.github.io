@@ -59,29 +59,6 @@ ddsmoothmenu.init({
   
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-<script language="JavaScript"> 
-var message="Sayfamızdaki Resimler ve Bilgiler, Özel Fethiye Sağlık Polikliniği' ne aittir. Kopyalanması ve İzinsiz Kullanılması Yasaktır!"; // Message for the alert box
-
-// Don't edit below!
-
-function click(e) {
-if(document.all) {
-if (event.button == 2) {
-alert(message);
-return false;
-}
-}else if(document.layers || document.getElementById){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-}
-document.onmousedown=click;
-// --> </script>
 
 <div id="templatemo_menu_wrapper">
     <div id="templatemo_menu" class="ddsmoothmenu">
